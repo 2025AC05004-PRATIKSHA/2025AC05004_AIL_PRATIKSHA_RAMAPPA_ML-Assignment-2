@@ -9,7 +9,7 @@ Original file is located at
 
 # Import the libraries required for the Streamlit application.
 # These libraries handle the interface, data processing, model and evaluation.
-!pip install -q streamlit
+# !pip install -q streamlit
 
 
 import streamlit as st
