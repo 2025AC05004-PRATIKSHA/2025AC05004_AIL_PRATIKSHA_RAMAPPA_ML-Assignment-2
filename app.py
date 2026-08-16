@@ -91,9 +91,6 @@ if uploaded_file is not None:
     X_test_app = test_data.drop(columns=["default"])
     y_test_app = test_data["default"]
 
-    st.write("Python version:", sys.version)
-    st.write("scikit-learn version:", sklearn.__version__)
-
     # Load the selected pre-trained model.
     model = joblib.load(model_paths[selected_model_name])
 
