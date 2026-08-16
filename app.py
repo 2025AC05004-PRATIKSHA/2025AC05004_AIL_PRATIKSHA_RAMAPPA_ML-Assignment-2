@@ -17,6 +17,7 @@ import pandas as pd
 import numpy as np
 import joblib
 import sys
+import sklearn
 
 from sklearn.metrics import (
     accuracy_score,
