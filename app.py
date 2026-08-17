@@ -166,7 +166,7 @@ if uploaded_file is not None:
 
     st.subheader("Prediction Results")
 
-    st.dataframe(prediction_output.head(10))
+    st.dataframe(prediction_output.head(6000))
 
     # Provide the predictions as a downloadable CSV file.
     st.download_button(
